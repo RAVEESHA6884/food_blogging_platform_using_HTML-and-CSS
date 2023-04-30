@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Upload Video and Blog</title>
+    <link rel="stylesheet" href="upload.css">
+  </head>
+  <body>
+    <h1>Upload Video and Blog</h1>
+    
+    <form action="submit.php" method="post" enctype="multipart/form-data">
+      <h2>Upload Video</h2>
+      <label for="videoTitle">Title:</label>
+      <input type="text" id="videoTitle" name="videoTitle"><br><br>
+      
+      <label for="videoDescription">Description:</label>
+      <textarea id="videoDescription" name="videoDescription"></textarea><br><br>
+      
+      <label for="videoFile">Select video to upload:</label>
+      <input type="file" id="videoFile" name="videoFile"><br><br>
+      
+      <input type="submit" value="Upload Video">
+    </form>
+    
+    <form action="submit.php" method="post">
+      <h2>Write a Blog</h2>
+      <label for="blogTitle">Title:</label>
+      <input type="text" id="blogTitle" name="blogTitle"><br><br>
+      
+      <label for="blogContent">Content:</label>
+      <textarea id="blogContent" name="blogContent"></textarea><br><br>
+      
+      <input type="submit" value="Publish Blog">
+    </form>
+    
+  </body>
+</html>

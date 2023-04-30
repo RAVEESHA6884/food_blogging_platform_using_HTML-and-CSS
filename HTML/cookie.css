@@ -1,0 +1,35 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4b177;
+    margin: 0;
+    padding: 0;
+  }
+  
+  h1, h2 {
+    text-align: center;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  li {
+    margin-bottom: 10px;
+  }
+  
+  p, li {
+    line-height: 1.5;
+  }
+  
+  ol {
+    margin-left: 30px;
+  }
+  
+  /* Media Query for smaller screens */
+  @media only screen and (max-width: 600px) {
+    h1 {
+      font-size: 30px;
+    }
+  }
+  
